@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#FFF57C00</color>
-    <color name="color_primary_dark">#FFD76D00</color>
+    <color name="color_primary">#9C27B0</color>
+    <color name="color_primary_dark">#7B1FA2</color>
+    <color name="color_primary_light">#BA68C8</color>
     <color name="color_accent">@color/color_primary</color>
 
     <color name="pressed_item_foreground">#08000000</color>
@@ -12,6 +13,8 @@
 
     <color name="hint_white">#99FFFFFF</color>
     <color name="hint_black">#66000000</color>
+
+    <color name="white">#FFFFFFFF</color>
 
     <!-- Color Customization -->
     <color name="theme_light_text_color">@color/md_grey_600</color>
