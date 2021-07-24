@@ -66,6 +66,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
+        /*
         if (!packageName.startsWith("com.simplemobiletools.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
                 val label = "You are using a fake version of the app. For your own safety download the original one from www.simplemobiletools.com. Thanks"
@@ -74,6 +75,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 }
             }
         }
+         */
     }
 
     override fun onResume() {
@@ -302,6 +304,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
     }
 
     fun startCustomizationActivity() {
+        /*
         if (!packageName.contains("slootelibomelpmis".reversed(), true)) {
             if (baseConfig.appRunCount > 100) {
                 val label = "You are using a fake version of the app. For your own safety download the original one from www.simplemobiletools.com. Thanks"
@@ -311,6 +314,7 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
                 return
             }
         }
+         */
 
         Intent(applicationContext, CustomizationActivity::class.java).apply {
             putExtra(APP_ICON_IDS, getAppIconIDs())
