@@ -77,13 +77,13 @@
         <item name="android:backgroundDimEnabled">false</item>
     </style>
 
-    <style name="PinNumberStyle.Base">
+    <style name="PinNumberStyleBase">
         <item name="android:gravity">center</item>
         <item name="android:padding">@dimen/small_margin</item>
         <item name="android:textSize">@dimen/big_text_size</item>
     </style>
 
-    <style name="PinNumberStyle" parent="PinNumberStyle.Base">
+    <style name="PinNumberStyle" parent="PinNumberStyleBase">
         <item name="android:background">?attr/selectableItemBackgroundBorderless</item>
     </style>
 
