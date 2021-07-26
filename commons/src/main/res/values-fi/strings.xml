@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Pyydä tarvittavia oikeuksia</string>
     <string name="no_access_to_contacts">Sovelluksella ei ole käyttöoikeutta yhteystietoihin</string>
     <string name="insert_text_here">Lisää teksti tähän</string>
+    <string name="call_person">Soita %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Vaihda näkymää</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Estä numero</string>
     <string name="block_numbers">Estä numeroita</string>
     <string name="blocked_numbers">Estetyt numerot</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">Jotta voit käyttää numeroiden estoja, täytyy tämän sovelluksen olla oletuksena puheluille.</string>
     <string name="set_as_default">Aseta oletukseksi</string>
     <string name="block_confirmation">Haluatko varmasti estää numeron \"%s\"?</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">Asetukset tuotu onnistuneesti</string>
     <string name="start_name_with_surname">Aloita sukunimellä</string>
     <string name="clear_cache">Tyhjennä välimuisti</string>
+    <string name="show_call_confirmation_dialog">Näytä soiton vahvistusruutu ennen soittoa</string>
 
     <!-- Setting sections -->
     <string name="visibility">Näkyvyys</string>

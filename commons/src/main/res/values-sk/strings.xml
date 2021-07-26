@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Vyžiadať potrebné oprávnenia</string>
     <string name="no_access_to_contacts">Nepodarilo sa získať zoznam kontaktov</string>
     <string name="insert_text_here">Zadajte text sem</string>
+    <string name="call_person">Zavolať %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Zmeniť typ zobrazenia</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Blokovať číslo</string>
     <string name="block_numbers">Blokovať čísla</string>
     <string name="blocked_numbers">Blokované čísla</string>
+    <string name="export_blocked_numbers">Exportovať blokované čísla</string>
+    <string name="import_blocked_numbers">Importovať blokované čísla</string>
     <string name="must_make_default_dialer">Pre použitie blokovania čísel musíte nastaviť aplikáciu ako predvolenú pre správu hovorov.</string>
     <string name="set_as_default">Nastaviť ako predvolenú</string>
     <string name="block_confirmation">Ste si istý, že chcete zablokovať \"%s\"?</string>
@@ -569,6 +572,7 @@
     <string name="settings_imported_successfully">Nastavenia boli úspešne importované</string>
     <string name="start_name_with_surname">Začať meno priezviskom</string>
     <string name="clear_cache">Vymazať cache</string>
+    <string name="show_call_confirmation_dialog">Zobraziť pred spustením hovoru okno na jeho potvrdenie</string>
 
     <!-- Setting sections -->
     <string name="visibility">Viditeľnosť</string>

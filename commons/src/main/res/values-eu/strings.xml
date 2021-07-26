@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Eskatu behar diren baimenak</string>
     <string name="no_access_to_contacts">Aplikazioak ezingo da kontaktuetan sartu</string>
     <string name="insert_text_here">Txertatu testua hemen</string>
+    <string name="call_person">%s deitu</string>
 
     <!-- View types -->
     <string name="change_view_type">Aldatu ikuspegi mota</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Blokeatu zenbakia</string>
     <string name="block_numbers">Blokeatu zenbakiak</string>
     <string name="blocked_numbers">Blokeatutako zenbakiak</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">Blokeatutako zenbakiak erabiltzeko aplikazio honek markatzaile-aplikazio lehenetsia izan behar du.</string>
     <string name="set_as_default">Ezarri lehenetsi gisa</string>
     <string name="block_confirmation">Ziur zaude \"%s\" blokeatu nahi duzula?</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">Ezarpenak ondo inportatu dira</string>
     <string name="start_name_with_surname">Hasi izen-abizenarekin</string>
     <string name="clear_cache">Garbitu cachea</string>
+    <string name="show_call_confirmation_dialog">Erakutsi egiaztatze mezua dei bat hasi baino lehen</string>
 
     <!-- Setting sections -->
     <string name="visibility">Ikusgaitasuna</string>

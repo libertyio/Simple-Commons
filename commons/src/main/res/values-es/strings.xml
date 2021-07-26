@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Solicitar los permisos requeridos</string>
     <string name="no_access_to_contacts">La aplicación no puede acceder a tus contactos</string>
     <string name="insert_text_here">Introduce el texto aquí</string>
+    <string name="call_person">Llamar a %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Cambiar tipo de vista</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Bloquear número</string>
     <string name="block_numbers">Bloquear números</string>
     <string name="blocked_numbers">Números bloqueados</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">Tienes que hacer esta aplicación la aplicación de marcación por defecto para hacer uso de los números bloqueados.</string>
     <string name="set_as_default">Establecer como por defecto</string>
     <string name="block_confirmation">¿Estás seguro de que quieres bloquear a \"%s\"?</string>
@@ -504,7 +507,7 @@
     <string name="customize_colors_locked">Cambiar colores (Locked)</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>
     <string name="customize_notifications">Customize notifications</string>
-    <string name="use_english_language">Usar el idioma Inglés</string>
+    <string name="use_english_language">Usar el idioma inglés</string>
     <string name="show_hidden_items">Mostrar elementos ocultos</string>
     <string name="font_size">Tamaño de fuente</string>
     <string name="small">Pequeña</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">Ajustes importados correctamente</string>
     <string name="start_name_with_surname">Mostrar nombre por apellido</string>
     <string name="clear_cache">Clear cache</string>
+    <string name="show_call_confirmation_dialog">Mostrar un cuadro de confirmación antes de iniciar una llamada</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibilidad</string>
@@ -543,7 +547,7 @@
     <string name="scrolling">Desplazamiento</string>
     <string name="file_operations">Operaciones con ficheros</string>
     <string name="recycle_bin">Papelera de reciclaje</string>
-    <string name="saving_label">Guardando</string>
+    <string name="saving_label">Guardado</string>
     <string name="startup">Puesta en marcha</string>
     <string name="text">Texto</string>
     <string name="migrating">Migrando</string>

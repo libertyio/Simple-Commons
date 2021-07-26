@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">A kívánt jogosultságok igénylése</string>
     <string name="no_access_to_contacts">The app could not access your contacts</string>
     <string name="insert_text_here">Insert text here</string>
+    <string name="call_person">%s hívása</string>
 
     <!-- View types -->
     <string name="change_view_type">Nézet típus változtatása</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Telefonszám zárolása</string>
     <string name="block_numbers">Telefonszámok zárolása</string>
     <string name="blocked_numbers">Zárolt telefonszámok</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">A zárolt telefonszámok használatához be kell állítani, hogy ez az app legyen az alapértelmezett tárcsázó.</string>
     <string name="set_as_default">Alapértelmezés beállítása</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
@@ -535,6 +538,7 @@
     <string name="settings_imported_successfully">A beállítások importálása sikerült</string>
     <string name="start_name_with_surname">Vezetéknév, keresztnév sorrend</string>
     <string name="clear_cache">Clear cache</string>
+    <string name="show_call_confirmation_dialog">Jóváhagyás kérése telefonhívás indítása előtt</string>
 
     <!-- Setting sections -->
     <string name="visibility">Láthatóság</string>
