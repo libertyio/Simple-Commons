@@ -56,6 +56,10 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getInt(TEXT_COLOR, context.resources.getColor(R.color.default_text_color))
         set(textColor) = prefs.edit().putInt(TEXT_COLOR, textColor).apply()
 
+    var linkTextColor: Int
+        get() = prefs.getInt(LINK_TEXT_COLOR, context.resources.getColor(R.color.link_text_color))
+        set(linkTextColor) = prefs.edit().putInt(LINK_TEXT_COLOR, linkTextColor).apply()
+
     var backgroundColor: Int
         get() = prefs.getInt(BACKGROUND_COLOR, context.resources.getColor(R.color.default_background_color))
         set(backgroundColor) = prefs.edit().putInt(BACKGROUND_COLOR, backgroundColor).apply()
@@ -65,7 +69,7 @@ open class BaseConfig(val context: Context) {
         set(primaryColor) = prefs.edit().putInt(PRIMARY_COLOR, primaryColor).apply()
 
     var accentColor: Int
-        get() = prefs.getInt(ACCENT_COLOR, context.resources.getColor(R.color.color_primary))
+        get() = prefs.getInt(ACCENT_COLOR, context.resources.getColor(R.color.color_accent))
         set(accentColor) = prefs.edit().putInt(ACCENT_COLOR, accentColor).apply()
 
     var navigationBarColor: Int
