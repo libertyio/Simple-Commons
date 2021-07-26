@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Sol·liciteu els permisos necessaris</string>
     <string name="no_access_to_contacts">L\'aplicació no ha pogut accedir als teus contactes</string>
     <string name="insert_text_here">Introdueix el text aquí</string>
+    <string name="call_person">Truca %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Canviar el tipus de vista</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Bloquejar número</string>
     <string name="block_numbers">Bloquejar números</string>
     <string name="blocked_numbers">Números bloquejats</string>
+    <string name="export_blocked_numbers">Exporta números bloquejats</string>
+    <string name="import_blocked_numbers">Importa números bloquejats</string>
     <string name="must_make_default_dialer">Heu de fer que aquesta aplicació sigui l\’aplicació de marca predeterminada per utilitzar els números bloquejats.</string>
     <string name="set_as_default">Establir com a defecte</string>
     <string name="block_confirmation">Segur que voleu bloquejar \"%s\"?</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">Ajustaments importats correctament</string>
     <string name="start_name_with_surname">Start name with surname</string>
     <string name="clear_cache">Clear cache</string>
+    <string name="show_call_confirmation_dialog">Show a call confirmation dialog before initiating a call</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibilitat</string>

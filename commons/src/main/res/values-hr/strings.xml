@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Zatraži potrebna dopuštenja</string>
     <string name="no_access_to_contacts">The app could not access your contacts</string>
     <string name="insert_text_here">Insert text here</string>
+    <string name="call_person">Nazovi %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Promijeni vrstu prikaza</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Blokiraj broj</string>
     <string name="block_numbers">Blokiraj brojeve</string>
     <string name="blocked_numbers">Blokirani brojevi</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">Morate napraviti ovu aplikaciju zadanom aplikacijom za biranje da biste bili u mogućnosti koristiti blokirane brojeve.</string>
     <string name="set_as_default">Postavi na zadano</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
@@ -567,6 +570,7 @@
     <string name="settings_imported_successfully">Settings imported successfully</string>
     <string name="start_name_with_surname">Započnite imena s prezimenima</string>
     <string name="clear_cache">Clear cache</string>
+    <string name="show_call_confirmation_dialog">Pokažite dijaloški okvir za potvrdu poziva prije pokretanja poziva</string>
 
     <!-- Setting sections -->
     <string name="visibility">Vidljivost</string>

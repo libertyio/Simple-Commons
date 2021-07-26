@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">נדרשים הרשאות</string>
     <string name="no_access_to_contacts">לא ניתן לגשת לאנשי הקשר</string>
     <string name="insert_text_here">הוספת טקסט</string>
+    <string name="call_person">Call %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Change view type</string>
@@ -54,6 +55,8 @@
     <string name="block_number">חסום מספר</string>
     <string name="block_numbers">חסום מספרים</string>
     <string name="blocked_numbers">מספרים חסומים</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">נדרש לבחור את האפליקצייה כברירת מחדל בכדי לחסום מספרים.</string>
     <string name="set_as_default">קבע כברירת מחדל</string>
     <string name="block_confirmation">האם לחסום את \"%s\"?</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">הגדרות יובאו בהצלחה</string>
     <string name="start_name_with_surname">התחל שם בשם משפחה</string>
     <string name="clear_cache">Clear cache</string>
+    <string name="show_call_confirmation_dialog">Show a call confirmation dialog before initiating a call</string>
 
     <!-- Setting sections -->
     <string name="visibility">נראות</string>

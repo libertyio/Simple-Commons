@@ -37,6 +37,7 @@
     <string name="request_the_required_permissions">Richiedi le autorizzazioni necessarie</string>
     <string name="no_access_to_contacts">L\'app non è riuscita ad accedere ai tuoi contatti</string>
     <string name="insert_text_here">Inserisci qui il testo</string>
+    <string name="call_person">Chiama %s</string>
 
     <!-- View types -->
     <string name="change_view_type">Cambia modalità visualizzazione</string>
@@ -54,6 +55,8 @@
     <string name="block_number">Blocca numero</string>
     <string name="block_numbers">Blocca numeri</string>
     <string name="blocked_numbers">Numeri bloccati</string>
+    <string name="export_blocked_numbers">Export blocked numbers</string>
+    <string name="import_blocked_numbers">Import blocked numbers</string>
     <string name="must_make_default_dialer">È necessario impostare quest\'app come predefinita per utilizzare i numeri bloccati.</string>
     <string name="set_as_default">Imposta come predefinita</string>
     <string name="block_confirmation">Sei sicuro di volere bloccare \"%s\"?</string>
@@ -536,6 +539,7 @@
     <string name="settings_imported_successfully">Impostazioni importate correttamente</string>
     <string name="start_name_with_surname">Prima il cognome poi il nome</string>
     <string name="clear_cache">Svuota la cache</string>
+    <string name="show_call_confirmation_dialog">Mostra un messaggio di conferma prima di iniziare una chiamata</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibilità</string>
