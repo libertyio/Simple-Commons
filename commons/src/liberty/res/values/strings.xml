@@ -1,0 +1,4 @@
+<resources>
+    <string name="notice">This app uses the following third party libraries:</string>
+    <string name="third_party_licences">Third party licenses</string>
+</resources>
