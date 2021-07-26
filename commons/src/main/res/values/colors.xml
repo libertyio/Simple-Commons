@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="color_primary">#9C27B0</color>
-    <color name="color_primary_dark">#7B1FA2</color>
-    <color name="color_primary_light">#BA68C8</color>
+    <color name="color_primary">#FFF57C00</color>
+    <color name="color_primary_dark">#FFD76D00</color>
+    <color name="color_primary_light">#FFFFB74D</color>
     <color name="color_accent">@color/color_primary</color>
 
     <color name="pressed_item_foreground">#08000000</color>
@@ -22,6 +22,7 @@
     <color name="theme_dark_text_color">@color/md_grey_200</color>
     <color name="theme_dark_background_color">@color/md_grey_800</color>
     <color name="default_text_color">@color/theme_dark_text_color</color>
+    <color name="link_text_color">@color/color_accent</color>
     <color name="default_background_color">@color/theme_dark_background_color</color>
     <color name="theme_solarized_background_color">@color/md_indigo_900_dark</color>
     <color name="theme_solarized_text_color">@color/md_amber_700</color>
