@@ -7,7 +7,8 @@ import android.app.NotificationManager
 import android.app.role.RoleManager
 import android.content.*
 import android.content.pm.PackageManager
-import android.content.pm.ShortcutManager
+// NOTE: ShortcutManager only available in API 25 and later
+//import android.content.pm.ShortcutManager
 import android.content.res.Configuration
 import android.database.Cursor
 import android.graphics.Color
@@ -65,6 +66,7 @@ val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat
 fun Context.updateTextColors(viewGroup: ViewGroup, tmpTextColor: Int = 0, tmpAccentColor: Int = 0) {
     val textColor = if (tmpTextColor == 0) baseConfig.textColor else tmpTextColor
     val backgroundColor = baseConfig.backgroundColor
+    /*
     val accentColor = if (tmpAccentColor == 0) {
         when {
             isWhiteTheme() || isBlackAndWhiteTheme() -> baseConfig.accentColor
@@ -73,6 +75,8 @@ fun Context.updateTextColors(viewGroup: ViewGroup, tmpTextColor: Int = 0, tmpAcc
     } else {
         tmpAccentColor
     }
+    */
+    val accentColor = if (tmpAccentColor == 0) { baseConfig.accentColor } else { tmpAccentColor }
 
     val cnt = viewGroup.childCount
     (0 until cnt).map { viewGroup.getChildAt(it) }.forEach {
@@ -93,6 +97,7 @@ fun Context.updateTextColors(viewGroup: ViewGroup, tmpTextColor: Int = 0, tmpAcc
     }
 }
 
+/*
 fun Context.getLinkTextColor(): Int {
     return if (baseConfig.primaryColor == resources.getColor(R.color.color_primary)) {
         baseConfig.primaryColor
@@ -100,14 +105,23 @@ fun Context.getLinkTextColor(): Int {
         baseConfig.textColor
     }
 }
+*/
+fun Context.getLinkTextColor(): Int {
+    return baseConfig.linkTextColor
+}
 
 fun Context.isBlackAndWhiteTheme() = baseConfig.textColor == Color.WHITE && baseConfig.primaryColor == Color.BLACK && baseConfig.backgroundColor == Color.BLACK
 
 fun Context.isWhiteTheme() = baseConfig.textColor == DARK_GREY && baseConfig.primaryColor == Color.WHITE && baseConfig.backgroundColor == Color.WHITE
 
+/*
 fun Context.getAdjustedPrimaryColor() = when {
     isWhiteTheme() || isBlackAndWhiteTheme() -> baseConfig.accentColor
     else -> baseConfig.primaryColor
+}
+*/
+fun Context.getAdjustedPrimaryColor(): Int {
+    return baseConfig.accentColor
 }
 
 fun Context.toast(id: Int, length: Int = Toast.LENGTH_SHORT) {
@@ -917,7 +931,8 @@ fun Context.getTextSize() = when (baseConfig.fontSize) {
 val Context.telecomManager: TelecomManager get() = getSystemService(Context.TELECOM_SERVICE) as TelecomManager
 val Context.windowManager: WindowManager get() = getSystemService(Context.WINDOW_SERVICE) as WindowManager
 val Context.notificationManager: NotificationManager get() = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
-val Context.shortcutManager: ShortcutManager get() = getSystemService(ShortcutManager::class.java) as ShortcutManager
+// NOTE: ShortcutManager only available in API 25 and later
+// val Context.shortcutManager: ShortcutManager get() = getSystemService(ShortcutManager::class.java) as ShortcutManager
 
 val Context.portrait get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
 val Context.navigationBarRight: Boolean get() = usableScreenSize.x < realScreenSize.x && usableScreenSize.x > usableScreenSize.y
